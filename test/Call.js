@@ -13,11 +13,11 @@ describe("Call", function () {
         // const TestCall = await ethers.getContractFactory("TestCall")
         // const testCall = await TestCall.deploy()
 
-        const TestCall = new ethers.ContractFactory(
-            testJson.abi,
-            testJson.bytecode,
-            account
-        )
+        // const TestCall = new ethers.ContractFactory(
+        //     testJson.abi,
+        //     testJson.bytecode,
+        //     account
+        // )
 
         const TestCall = await ethers.getContractFactory(
             testJson.abi,
